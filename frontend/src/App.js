@@ -1,15 +1,11 @@
-import { BrowserRouter, Router } from 'react-router-dom';
-import Routess from './Routess/Routess';
-
-
-
-
+import { BrowserRouter, Router } from "react-router-dom";
+import Routess from "./Routess/Routess";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-      <Routess/>
+        <Routess />
       </BrowserRouter>
     </div>
   );
