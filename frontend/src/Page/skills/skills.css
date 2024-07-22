@@ -1,0 +1,22 @@
+
+.skill-all{
+    margin-top: 80px;
+     display: flex;
+     flex-direction: column;
+}
+.skill-header {
+    width: full;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    padding-top: 35px;
+
+}
+.skill-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    
+}
