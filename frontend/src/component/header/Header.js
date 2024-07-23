@@ -14,10 +14,16 @@ const Header = () => {
           <Link to="/">
             <button className="mid-button">Home</button>
           </Link>
-          <button className="mid-button">About Us</button>
-          <button className="mid-button">Training</button>
-          <button className="mid-button">Services</button>
-          <button className="mid-button">Contact</button>
+          <Link to="/aboutus">
+            <button className="mid-button">About Us</button>
+          </Link>
+          {/* <button className="mid-button">Training</button> */}
+          <Link to={"/Services"}>
+            <button className="mid-button">Services</button>
+          </Link>
+          <Link to="/Contact">
+            <button className="mid-button">Contact</button>
+          </Link>
         </div>
         <div className="last">
           <Link to="/login">

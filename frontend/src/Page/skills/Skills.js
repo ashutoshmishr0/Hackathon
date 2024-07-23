@@ -54,7 +54,7 @@ const skills = () => {
           Learn, Practice, and Test Your Skills with Our Courses
         </p>
       </div>
-      <div className="skill-card grid grid-cols-3 gap-4 ">
+      <div className="skill-card px-10 grid grid-cols-3 gap-4 ">
         {data.map((p) => (
           <div class="card bg-base-100 w-96 shadow-xl items-center text-center pt-10">
             <h2 class="card-title font-bold text-[20px]">{p.heading}</h2>
@@ -62,7 +62,7 @@ const skills = () => {
               <img src={p.Img} alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
-              <p>{p.discription}</p>
+              {/* <p>{p.discription}</p> */}
               {/* <div class="card-actions">
                 <button class="btn btn-primary">Read More</button>
               </div> */}
