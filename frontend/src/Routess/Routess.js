@@ -10,6 +10,7 @@ import Footer from "../component/footer/Footer";
 import Aboutus from "../Page/Aboutus/Aboutus";
 import Service from "../Page/Service/Service";
 import Contect from "../Page/Contact/Contect";
+import Training from "../Page/Training/training";
 
 const Routess = () => {
   return (
@@ -23,6 +24,7 @@ const Routess = () => {
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/Services" element={<Service />} />
         <Route path="/Contact" element={<Contect />} />
+        <Route path="/training" element={<Training />} />
       </Routes>
       <Footer />
     </div>

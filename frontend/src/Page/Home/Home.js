@@ -4,9 +4,10 @@ import Skills from "../skills/Skills";
 import pic1 from "../image/MERN.jpg";
 import coer from "../image/coer.jpg";
 import graficera from "../image/graficera.png";
-import gennext from "../image/gennext.png";
+import gennext from "../image/gennext-logo.png";
 import app from "../image/app.jpg";
-import migra from "../image/migra.png";
+import mts from "../image/MTS.png";
+import sdgi from "../image/sdgi.jpg";
 
 import About from "../About/About";
 import { Link } from "react-router-dom";
@@ -43,7 +44,7 @@ const Home = () => {
       {/* second component of corporate and educational Partners */}
 
       <div className="corporate-partners">
-        <div className="top-bar py-5">
+        <div className="top-bar py-5 sm:py-1">
           <h1 className=" font-bold text-[30px]">
             Corporate And Educational Partners
           </h1>
@@ -55,7 +56,7 @@ const Home = () => {
         <div class="gridcontainer">
           <div className="box1">
             <div class="item">
-              <img className=" h-16" src={coer}></img>
+              <img className=" h-16" src={sdgi}></img>
             </div>
             <div class="item">
               <img className="h-12" src={graficera}></img>
@@ -69,7 +70,7 @@ const Home = () => {
               <img className=" h-16" src={app}></img>
             </div>
             <div class="item">
-              <img className="h-16" src={migra}></img>
+              <img className="h-16" src={mts}></img>
             </div>
             <div class="item">
               <img className="h-16 " src={coer}></img>
